@@ -1,0 +1,102 @@
+*.{
+
+}
+
+body{
+ margin: 0;
+ background-image: url("./imgs/background-image.jpg");
+}
+
+#title{
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 3px pink;
+}
+
+.menu{
+  float: left;
+  width: 10%;
+  height: 240px;
+  color: white;
+  text-shadow: 3px 3px 3px #E0FFFF;
+}
+
+.menu>b{
+  margin: auto;
+}
+
+.menu>ol{
+  list-style-type: lower-alpha;
+  list-style-image: none;
+  list-style-position: inside;
+}
+
+.content{
+  color: white;
+  height: 240px;
+}
+
+.content>table{
+  height: 10%;
+  width: 40%;
+  position: relative;
+  left: 25%;
+  top: 45%;
+  text-align: center;
+  border-spacing: 2.5%;
+}
+
+.relative-layout{
+
+}
+
+#img{
+  display: inline;
+  width: 28%;
+  height: 300px;
+}
+
+#description{
+  width: 70%;
+  height: 300px;
+  padding: 7px;
+  float: right;
+  color: white;
+  text-shadow: 1px 1px 1px purple;
+}
+
+
+h3{
+    margin: 2%;
+    color: white;
+    text-shadow: 3px 3px 3px yellow;
+}
+
+.videoes{
+
+}
+
+#video1{
+  margin-left: 2%;
+  display: inline;
+}
+
+#video2{
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline;
+}
+
+#video3{
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  display: inline;
+}
+
+#bottom{
+  color: red;
+  text-align: center;
+  background-color: #E0FFFF;
+  float: bottom;
+}
