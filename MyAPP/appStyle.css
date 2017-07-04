@@ -1,7 +1,3 @@
-*.{
-
-}
-
 body{
  margin: 0;
  background-image: url("./imgs/background-image.jpg");
@@ -43,7 +39,7 @@ body{
   left: 25%;
   top: 45%;
   text-align: center;
-  border-spacing: 2.5%;
+  border-spacing: 4px;
 }
 
 .relative-layout{
@@ -73,17 +69,20 @@ h3{
 }
 
 .videoes{
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #video1{
-  margin-left: 2%;
+  margin-left: auto;
+  margin-right: auto;
   display: inline;
 }
 
 #video2{
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: auto;
+  margin-right: auto;
   display: inline;
 }
 
