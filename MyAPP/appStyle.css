@@ -1,101 +1,95 @@
-body{
- margin: 0;
- background-image: url("./imgs/background-image.jpg");
+* {
+    margin: 0;
+    padding: 0;
+    color: #346667;
+    font-family: Arial, Helvetica, sans-serif, "宋体";
+    height: auto;
 }
 
-#title{
-  color: white;
-  text-align: center;
-  text-shadow: 3px 3px 3px pink;
+a {
+    text-decoration: none;
 }
 
-.menu{
-  float: left;
-  width: 10%;
-  height: 240px;
-  color: white;
-  text-shadow: 3px 3px 3px #E0FFFF;
+a:hover {
+    text-decoration: underline;
 }
 
-.menu>b{
-  margin: auto;
+body {
+    margin: 0;
+    background-image: url("./imgs/background-image.jpg");
+    background-repeat: no-repeat #191970;
 }
 
-.menu>ol{
-  list-style-type: lower-alpha;
-  list-style-image: none;
-  list-style-position: inside;
-}
-
-.content{
-  color: white;
-  height: 240px;
-}
-
-.content>table{
-  height: 10%;
-  width: 40%;
-  position: relative;
-  left: 25%;
-  top: 45%;
-  text-align: center;
-  border-spacing: 4px;
-}
-
-.relative-layout{
-
-}
-
-#img{
-  display: inline;
-  width: 28%;
-  height: 300px;
-}
-
-#description{
-  width: 70%;
-  height: 300px;
-  padding: 7px;
-  float: right;
-  color: white;
-  text-shadow: 1px 1px 1px purple;
-}
-
-
-h3{
-    margin: 2%;
+h1 {
     color: white;
-    text-shadow: 3px 3px 3px yellow;
+    text-align: center;
+    text-shadow: 3px 3px 3px pink;
+    margin: 10px;
 }
 
-.videoes{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+h2 {
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
 }
 
-#video1{
-  margin-left: auto;
-  margin-right: auto;
-  display: inline;
+p {
+    line-height: 24px;
+    text-indent: 26px;
+    text-align: left;
+    margin-bottom: 5px;
 }
 
-#video2{
-  margin-left: auto;
-  margin-right: auto;
-  display: inline;
+#wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 762px;
+    height: auto;
+    text-align: center;
 }
 
-#video3{
-  margin-top: 2%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  display: inline;
+#header {
+    text-align: right;
+    height: 92px;
+    background-image: url("./imgs/banner.gif");
 }
 
-#bottom{
-  color: red;
-  text-align: center;
-  background-color: #E0FFFF;
-  float: bottom;
+#header a {
+    color: #191970;
+    margin: 0 5px;
+}
+
+#mainbody {
+    width: 100%;
+}
+
+#mainbody,
+#footer {
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {
+    background: #eff9f9;
+    padding: 44px 15px 15px;
+    border: 4px solid #badbdb;
+}
+
+.profile {
+    background: url(./imgs/t_profile.gif) no-repeat #eff9f9;
+}
+
+.book {
+    background: url(./imgs/t_book.gif) no-repeat #eff9f9;
+    text-align: center;
+}
+
+.book img {
+    border: 1px solid #b1adaa;
+    margin: 10px;
 }

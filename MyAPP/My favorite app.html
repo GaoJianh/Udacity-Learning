@@ -1,71 +1,39 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset="utf-8">
     <title>测试网页</title>
     <link rel="stylesheet" href="appStyle.css">
-  </head>
+</head>
 
-	<body>
-		<div id="container">
-
-			<div id="title">
-				<h1>Main Title of Web Page</h1>
-			</div>
-
-			<div class="menu">
-				<b>Menu</b><br>
-        <ol>
-				   <li>HTML</li>
-				   <li>CSS</li>
-				   <li>JavaScript</li>
-        </ol>
-
-			</div>
-
-			<div class="content">
-				<table border="1">
-            <tr>
-                <td>HTML</td>
-                <td>CSS</td>
-                <td>JavaScript</td>
-            </tr>
-        </table>
-			</div>
-
-      <div class="relative-layout">
-        <div id="img">
-          <img src="./imgs/app.png" alt="图片资源不存在">
+<body>
+    <div id="container">
+        <h1>Main Title of Web Page</h1>
+    </div>
+    <div id="wrap">
+        <div id="header">
+            <a href="#">联系我们</a>|<a href="#">站点地图</a>
         </div>
-        <div id="description">
-          <h3>定义和用法</h3>
-          <p>
-            <img> 标签的 src 属性是必需的。它的值是图像文件的 URL，也就是引用该图像的文件的的绝对路径或相对路径。
-            提示：为了整理文档的存储，创作者通常会把图像文件存放在一个单独的文件夹中，而且通常会将这些目录命名为 "pics" 或者 "images" 之类的名称。在 W3School 在线教程中，我们的工程师把大部分常用的图像都存放到一个名为 "i" 的文件夹中，"i"是 "images" 的缩写，这样做的好处是可以最大程度地简化路径。
-          </p>
+        <div id="mainbody">
+            <div class="content profile">
+                <h2>:: 关于幾米 ::</h2>
+                <p>幾米，一位用画笔描绘梦想、吸引无数读者画迷为之疯狂，知名度迅速窜升的当红绘本作家，同时却也是一个腼腆善良的中年男子，偏好简单的居家生活，低调而淡泊。</p>
+                <p>幾米的个性害羞内向，不擅长用言语表达，他用敏锐细腻的心去感受周遭的人与事，将情感、思绪藉由「绘画」传达他对大千世界的看法，作品风貌多变，创作力源源不绝，因此看幾米的作品，就像是走入他的内在，幾米的故事引领着每一位欣赏他作品的人看到并相信世界上的美与善，同时也反应了现代人生活中的点点滴滴，因此每个人都能在他的故事找到一个映照和寄托，或许这就是幾米作品的迷人之处。</p>
+                <p>幾米，绘本作家，文化大学美术系毕业，曾在广告公司工作十二年，后来为报纸、杂志等各种出版品画插画 。1998年开始创作，发表《森林里的秘密》和《微笑的鱼》，拿下当年度中国时报开卷最佳童书、民生报好书大家读年度最佳童书，以及联合报读书人最佳童书奖。 1999年出版《向左走．向右走》，开创出成人绘本的新型式，兴起一股绘本创作风潮。本书获选为1999年金石堂十大最具影响力的书，并已改编成电影、电视剧。之后陆续推出《听幾米唱歌》、《月亮忘记了》、《森林唱游》、《我的心中每天开出一朵花》等作品，展现惊人的创作力和多变的叙事风格。 2001年出版《地下铁》，获选2002年金鼎奖推荐优良图书，并改编成音乐剧和电影。次年《照相本子》、《1.2.3.木头人》和《我只能为你画一张小卡片》获选2002年行政院新闻局推介中小学生优良课外读物图书类推荐读物。2002年《布瓜的世界》甫上市便登上各大书店畅销排行榜第一名。 2003、2004年陆续出版《幸运儿》、《你们我们他们》、《又寂寞又美好》、《履历表》、《遗失了一只猫》等作品，内容风格上更形突破。2005年的《小蝴蝶小披风》和《失乐园》开始经营角色，多变的故事节奏有不同于以往的阅读趣味。 作品风靡两岸三地，美、法、德、希腊、韩、日、泰等国皆有译本。学界和媒体多次以「幾米现象」为主题分析评论。 2003年Studio Voice杂志选为亚洲最有创意的五十五人之一。 </p>
+            </div>
+            <div class="content book">
+                <a href="#"><img src="./imgs/book1.jpg" width="70" height="70" /></a>
+                <a href="#"><img src="./imgs/book2.jpg" width="70" height="70" /></a>
+                <a href="#"><img src="./imgs/book3.jpg" width="70" height="70" /></a>
+                <a href="#"><img src="./imgs/book4.jpg" width="70" height="70" /></a>
+                <a href="#"><img src="./imgs/book5.jpg" width="70" height="70" /></a>
+                <a href="#"><img src="./imgs/book6.jpg" width="70" height="70" /></a>
+            </div>
         </div>
-      </div>
+    </div>
+    <div id="footer">copyright © 2004-2012 Jimmyspa.com All Rights Reserved.</div>
+    </div>
+</body>
 
-      <h3>视频欣赏</h3>
-
-      <div class="videoes">
-        <div id="video1">
-          <!-- <video src="./video/Westlife - Nothing's Gonna Change My Love For You.mp4" controls></video> -->
-          <embed bgcolor="#000000" wmode="transparent" allownetworking="all" allowfullscreen="true" allowscriptaccess="always" flashvars="hurl=http://v4.music.126.net/20170705112609/3eb68a7c62c1fc5f26d523edc7d8bccb/web/cloudmusic/MzE3OTkxNDQw/5c4d80b3a56882042ee1b674b89adbd6/5fb5d5479dc98636f7f72619487d680a.mp4&amp;murl=http://v4.music.126.net/20170705112609/3f01ef3f36cb9872f3cd2fac70fb5e2e/web/cloudmusic/MzE3OTkxNDQw/5c4d80b3a56882042ee1b674b89adbd6/342f62df962278b288d24ff20dd7cb53.mp4&amp;autoPlay=true&amp;trackName=Nothing's Gonna Change My Love For You&amp;artistName=Westlife&amp;resourceId=5441395&amp;coverImg=http://p3.music.126.net/tjt3abayhtib32LEGkkbFg==/18591642115901733.jpg&amp;restrict=false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" name="flash-1365562188927" src="http://s1.music.126.net/style/swf/MVPlayer_fee.swf?v=20170527" width="640" height="400">
-        </div>
-        <div id="video2">
-          <embed bgcolor="#000000" wmode="transparent" allownetworking="all" allowfullscreen="true" allowscriptaccess="always" flashvars="hurl=&amp;murl=http://v4.music.126.net/20170705113715/7663fccc824cd8be27633d4b0a503ed2/web/cloudmusic/NDBgICIxYiEhNSEiMCQxIA==/mv/392079/e1041669fc02d6d560472ace6eb11758.mp4&amp;autoPlay=true&amp;trackName=My Love&amp;artistName=Westlife&amp;resourceId=392079&amp;coverImg=http://p3.music.126.net/nTnpgukxFjlLqtp7g9J8nA==/7736163813642095.jpg&amp;restrict=false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" name="flash-1365562188927" src="http://s1.music.126.net/style/swf/MVPlayer_fee.swf?v=20170527" width="640" height="400">
-        </div>
-        <div id="video3">
-          <embed bgcolor="#000000" wmode="transparent" allownetworking="all" allowfullscreen="true" allowscriptaccess="always" flashvars="hurl=&amp;murl=http://v4.music.126.net/20170705114224/ddfd9f9668455a1d0c16f88b43e5bbaf/web/cloudmusic/MDAyYCAwIWBhIDA0MDAiZA==/mv/32800/2717a8eb21a486582c28d3fa59976b53.mp4&amp;autoPlay=true&amp;trackName=Seasons In The Sun&amp;artistName=Westlife&amp;resourceId=32800&amp;coverImg=http://p3.music.126.net/XEytcrFE6citl8U6RKwz8Q==/5949457417959775.jpg&amp;restrict=false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" name="flash-1365562188927" src="http://s1.music.126.net/style/swf/MVPlayer_fee.swf?v=20170527" width="640" height="400">
-        </div>
-      </div>
-
-			<div id="bottom">
-				Copyright © w3cschool.cn
-			</div>
-
-		</div>
-	</body>
 </html>
